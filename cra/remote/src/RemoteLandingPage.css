@@ -1,0 +1,38 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .pokemon-list {
+    margin-top: 20px;
+  }
+  
+  .pokemon-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    width: calc(15% - 20px); /* 4 cards per row */
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+  }
+  
+  .pokemon-image {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .pokemon-details {
+    padding: 10px;
+  }
+  
+  .pokemon-details strong {
+    font-size: 16px;
+    color: #333;
+  }
+  

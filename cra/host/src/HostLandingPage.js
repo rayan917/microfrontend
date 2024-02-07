@@ -1,5 +1,6 @@
 import FooterShared from "../../sharedComponents/src/Footer";
 import HeaderShared from "../../sharedComponents/src/Header";
+import FileUpload from "./FileUpload";
 
 
 const HostLandingPage = ({ title }) => {
@@ -8,6 +9,7 @@ const HostLandingPage = ({ title }) => {
       <HeaderShared />
       <h1>Bienvenue sur la page d'accueil de l'hôte</h1>
       <p>param : {title}</p>
+      <FileUpload/>
       <FooterShared />
     </div>
   );
